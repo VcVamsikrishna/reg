@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="reg.css">
+
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div class="container">
+            <lable for="name">Name:</lable>
+            <input type="text"id="name"name="name"required>
+            <lable for="email">Email:</lable>
+            <input type="email"id="email"name="email"required>
+            <lable for="password">password</lable>
+            <input type="password"name="pasword"id="password"required>
+            <lable for="phone number">phone number:</lable>
+            <input type="tel"name="phone number"id="phone number"required>
+            <lable for="gender">gender:</lable>
+            <select id="gender">
+                <option value=name="male">Male</option>
+                <option value=name="female">Female</option>
+                <option value=name="other">other</option>
+            </select>
+            <lable for="lang">Language</lable>
+            <select id="english">
+                <option value=name="english">English</option>
+                <option value=name="hindi">Hindi</option>
+                <option value=name="telugu">Telugu</option>
+                <option value=name="tamil">Tamil</option>
+            </select>
+            <lable for="zip code">zip code</lable>
+            <input type="text"name="zip code"id="zip code"required>
+            <label for="about">About</label>
+            <textarea id="about"></textarea>
+            <div class="mahi">
+                <input value="submit"value="Register"></div>
+        </div>
+    </form>
+</body>
+</html>
+<style>
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: royalblue;
+}
+h1{
+    text-align: center;
+}
+form{
+    padding: 13px;
+    height: 500px;
+    border-radius: 6px;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: violet;
+}
+label{
+    display: block;
+    margin: 1.5px;
+    font-weight: bold;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea{
+    padding: 6px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 2px;
+}
+select{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color:aliceblue;
+    background-color: orange;
+    cursor: pointer;
+}
+input[type="sub,it"]:hover{
+    background-color: brown;
+}
+container{
+    width: 400px;
+    margin: auto;
+    height: 700px;
+}
